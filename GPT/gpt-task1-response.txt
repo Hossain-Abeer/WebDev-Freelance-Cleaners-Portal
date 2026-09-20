@@ -1,6 +1,5 @@
 gpt-task1-response
-
-1. Roadmap – Phases
+ 1. Roadmap – Phases
 
 - P0 Setup: Repo, client+server scaffold, env, tooling.
 - P1 Auth & Accounts: Users, roles, profiles.
