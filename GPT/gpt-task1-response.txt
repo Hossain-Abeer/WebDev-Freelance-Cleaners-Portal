@@ -1,6 +1,7 @@
 gpt-task1-response
- 1. Roadmap – Phases
 
+
+ 1. Roadmap – Phases
 - P0 Setup: Repo, client+server scaffold, env, tooling.
 - P1 Auth & Accounts: Users, roles, profiles.
 - P2 Tasks & Bidding: Job posting, offers, bids.
@@ -10,8 +11,8 @@ gpt-task1-response
 - P6 Chat: Real-time messaging.
 - P7 Polish & Deploy: Testing, CI/CD, hosting, marketing.
 
-2. Task → Milestone Mapping
 
+2. Task → Milestone Mapping
 | Task | Milestone |
 |------|-----------|
 | task1 | P0 Setup |
@@ -25,8 +26,8 @@ gpt-task1-response
 | task9 | P6 Chat |
 | task10 | P7 Deploy |
 
-3. Framework Overview
 
+3. Framework Overview
 Client (React + Vite): pages, components, routing, state/context, API client (axios), Socket client, styling (Tailwind).
 
 Server (Express/Node): routes → controllers → services → models; middleware (auth, error, validation, logger).
@@ -43,8 +44,8 @@ Repo layout:
 /server   → Express API
 ```
 
-4. Workflow Sequence (cleaning job)
 
+4. Workflow Sequence (cleaning job)
 1. Client registers → profile.
 2. Client posts task (date, location, budget).
 3. Cleaners browse → submit bids.
@@ -55,6 +56,8 @@ Repo layout:
 8. Escrow releases funds.
 9. Both rate each other.
 10. Reviews update profiles.
+
+
 
 5. Software Installation – Phase by Phase
 
