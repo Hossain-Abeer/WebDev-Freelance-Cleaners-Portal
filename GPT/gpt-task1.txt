@@ -1,0 +1,9 @@
+gpt-task1
+
+
+provide: 
+1. a clear & concise - a set of phases in development, a roadmap of the entire project. 
+2. suggested mappings of tasks for each of the milestones in the roadmap. for instance, this here is your task1, mapped to the 1st milestone in roadmap. 
+3. an overview of the framework of how it functions, identifying generalized components in each departments. 
+4. sequence of events simulating workflow. 
+5. installation of software - phase by phase

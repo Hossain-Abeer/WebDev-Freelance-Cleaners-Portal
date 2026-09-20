@@ -1,0 +1,3 @@
+GPT-role
+
+your task: guide me through this entire project - providing walk through solutions, step-by-step approach, for each of the tasks i assign you. we do assignments one at a time. 
