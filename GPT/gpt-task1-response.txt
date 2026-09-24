@@ -45,7 +45,7 @@ Repo layout:
 ```
 
 
-4. Workflow Sequence (cleaning job)
+4.1 Workflow Sequence (people interacting)
 1. Client registers → profile.
 2. Client posts task (date, location, budget).
 3. Cleaners browse → submit bids.
@@ -56,6 +56,21 @@ Repo layout:
 8. Escrow releases funds.
 9. Both rate each other.
 10. Reviews update profiles.
+
+
+
+4.2 Workflow Sequence – Technical Components
+1. React client → POST /auth/register → Express route → auth controller → bcrypt hash → User model → MongoDB.
+2. Client → POST /tasks (JWT) → auth middleware → task controller → Task model → MongoDB.
+3. Cleaner client → POST /tasks/:id/bids → bid controller → Bid model → MongoDB.
+4. Client → PATCH /bids/:id/accept → bid service → creates Booking → emits Socket event → cleaner client notified.
+5. Client → POST /payments/intent → Stripe service → Stripe API → webhook → Payment model → MongoDB.
+6. Booking confirmed → Socket.io room created → messages persisted via Message model.
+7. Client → PATCH /bookings/:id/complete → payment service → Stripe transfer → escrow released.
+8. Both clients → POST /reviews → Review model → aggregate recalculated on User.
+
+React client re-fetches profile via axios → updated ratings rendered.
+
 
 
 
