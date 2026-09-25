@@ -1,0 +1,60 @@
+Task → Milestone Mapping
+| Task | Milestone |
+|------|-----------|
+| task1 | P0 Setup |
+| task2 | P1 Auth |
+| task3 | P1 Profiles |
+| task4 | P2 Tasks |
+| task5 | P2 Bidding |
+| task6 | P3 Scheduling |
+| task7 | P4 Payments |
+| task8 | P5 Ratings |
+| task9 | P6 Chat |
+| task10 | P7 Deploy |
+
+
+
+
+Roadmap – Phases
+- P0 Setup: Repo, client+server scaffold, env, tooling.
+- P1 Auth & Accounts: Users, roles, profiles.
+- P2 Tasks & Bidding: Job posting, offers, bids.
+- P3 Scheduling: Calendar, booking states.
+- P4 Payments: Escrow, hold/release.
+- P5 Ratings: Two-way reviews.
+- P6 Chat: Real-time messaging.
+- P7 Polish & Deploy: Testing, CI/CD, hosting, marketing.
+
+
+Software Installation – Phase by Phase
+
+P0 Setup
+- Node.js LTS, npm.
+- Git, GitHub account, repo init.
+- VS Code + extensions (ESLint, Prettier, MongoDB, Tailwind).
+- MongoDB Atlas account (or local MongoDB).
+- Postman/Thunder Client.
+- Client: `npm create vite@latest client -- --template react`; install `react-router-dom`, `axios`, Tailwind CSS, ESLint, Prettier. Optional state: `zustand` or Redux Toolkit.
+- Server: `npm init`; install `express`, `mongoose`, `cors`, `dotenv`.
+- Root: `.env`, `.gitignore`, optional `concurrently` for running both.
+
+P1 Auth
+- `bcrypt`, `jsonwebtoken`, `express-validator`, `cookie-parser`.
+
+P2 Tasks/Bidding
+- Mongoose models. No new installs.
+
+P3 Scheduling
+- Client: `react-big-calendar` (or similar). Utils: `date-fns` or `dayjs`.
+
+P4 Payments
+- Server: `stripe`. Client: `@stripe/stripe-js`. Stripe CLI.
+
+P5 Ratings
+- None.
+
+P6 Chat
+- `socket.io`, `socket.io-client`.
+
+P7 Deploy
+- Vercel (client), Render/Railway (server), MongoDB Atlas (DB), Cloudinary (images).
