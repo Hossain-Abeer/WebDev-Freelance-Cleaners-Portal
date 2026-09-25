@@ -1,9 +1,0 @@
-Brief: we will develop a web app with MERN-stack that will be a marketplace for clients & cleaners.
-
-Features: web-based scheduling system, accounts of both clients & freelance cleaners, payment holding & release system, object-oriented task assignment system, offer from client & bidding cleaners, rating of both client & cleaner, chats
-
-Personal Objectives: 
-1. MERN-stack because of its popularity. so that even if the webapp fails commercially, I could have it added to my portfolio, via the source files hosted on Github, to apply for jobs.
-2. I am a 4th-year bachelors student doing Electrical & Electronics Engineering at HAN Universtiy of Applied Sciences, and a junior cyber security analyst student at Hack the Box academy. I have basic skills in full stack web development, database, web hosting & networking (with regards to self-hosting systems); so this will give me opportunity to 'learn on the go'.
-3. After having it developed, I will also 'learn on the go' with "online marketing & promotions"  as it is an actual commerical project. 
-4. I am doing all this solo, I am going to do all tasks myself. 
