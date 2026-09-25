@@ -269,6 +269,8 @@ WebDev-Freelance-Cleaners-Portal/
 │   ├── socket/
 │   └── config/
 │
+├── GPT/
+│
 ├── .env
 ├── .gitignore
 └── README.md
