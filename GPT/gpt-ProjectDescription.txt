@@ -245,3 +245,34 @@ P7 Deploy
 - Vercel (client), Render/Railway (server), MongoDB Atlas (DB), Cloudinary (images).
 
 Task1 complete. Await task2.
+
+
+
+
+6. Repo Structure [subject to adjustments later]
+WebDev-Freelance-Cleaners-Portal/
+├── frontend/                 
+│   └── src/
+│       ├── pages/
+│       ├── components/
+│       ├── context/        ← State
+│       ├── api/            ← axios client
+│       ├── socket/         ← socket client
+│       └── styles/
+│
+├── backend/                 
+│   ├── routes/
+│   ├── controllers/
+│   ├── services/
+│   ├── models/             ← schemas (DB lives elsewhere)
+│   ├── middleware/
+│   ├── socket/
+│   └── config/
+│
+├── .env
+├── .gitignore
+└── README.md
+
+Rule: 
+if it runs as code → folder, 
+if it runs as a service (MongoDB, Stripe) → not a folder
