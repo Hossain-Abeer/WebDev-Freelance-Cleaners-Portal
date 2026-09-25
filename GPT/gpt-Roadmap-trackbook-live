@@ -1,0 +1,32 @@
+Task1 — P0: Setup
+
+[x] Sec 1: VSCode
+    [x] Extensions: ESLint, Prettier, MongoDB, Python, Auto Close Tag,
+        Auto Rename Tag, GitHub PR, HTML CSS Support, Live Server
+    [x] GitHub integrated
+
+[ ] Sec 2: Repo
+    [x] Created & structured (frontend/, backend/, GPT/)
+    [x] Local repo functioning; GPT/ has .txt files
+    [x] Standard files created: .env, .env.example, .gitignore, README.md
+    [ ] .env.example populated with placeholder keys
+    [ ] .gitignore verified (node_modules, .env, dist, etc.)
+    [ ] README.md content written
+
+[ ] Sec 3: Runtime & Tooling
+    [ ] Node.js LTS + npm installed & verified
+    [ ] MongoDB Atlas account (or local MongoDB)
+    [ ] API testing tool (Postman / Thunder Client)
+
+[ ] Sec 4: Frontend Scaffold
+    [ ] Vite React app initialized in frontend/
+    [ ] Deps: react-router-dom, axios, Tailwind CSS, ESLint, Prettier
+    [ ] Optional state: zustand / Redux Toolkit
+
+[ ] Sec 5: Backend Scaffold
+    [ ] npm init in backend/
+    [ ] Deps: express, mongoose, cors, dotenv
+
+[ ] Sec 6: Root Tooling
+    [ ] concurrently installed & script added
+    [ ] .env populated with placeholders
