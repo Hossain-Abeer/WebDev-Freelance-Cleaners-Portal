@@ -14,7 +14,7 @@ Task1 — P0: Setup
     [x] 2.6 README.md content written
 
 [ ] Sec 3: Runtime & Tooling
-    [ ] 3.1 Node.js LTS + npm installed & verified
+    [x] 3.1 Node.js LTS + npm installed & verified
     [ ] 3.2 MongoDB Atlas account (or local MongoDB)
     [ ] 3.3 API testing tool (Postman / Thunder Client)
 

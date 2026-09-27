@@ -1,0 +1,22 @@
+gpt-3.1-node-npm-log.txt
+Task1 — P0 — Sec 3.1: Node.js LTS + npm
+
+STATUS: DONE
+
+VERIFIED
+- node -v            → v24.21.0
+- npm -v             → 11.19.0
+- npm registry       → https://registry.npmjs.org/
+- ExecutionPolicy    → RemoteSigned (CurrentUser) — allows npm.ps1 scripts to run
+
+NOTES / FIXES
+1. `.nvmrc` created via PowerShell `>` is UTF-16 LE with BOM and includes
+   the "v" prefix. Linux/host nvm + build tools expect plain UTF-8, no "v".
+   Fix (run in PowerShell):
+       "24.21.0" | Out-File -Encoding ascii .nvmrc
+   Verify it shows only: 24.21.0
+
+2. If PowerShell blocks npm scripts again later:
+       Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+3. Keep Node on LTS line for host compatibility (Render/Railway/Vercel).
