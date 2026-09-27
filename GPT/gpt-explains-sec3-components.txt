@@ -220,4 +220,11 @@ Node = JS runtime.
 Carry this model forward: whenever you hear "Node," think
 "runtime with OS-level powers, sandboxed like any process."
 ─────────────────────────────────────────────────────────────────────────
-END OF ADDENDUM
+
+
+Windows OS
+ └── Node.js (runtime, installed at OS level)
+      ├── npm (bundled CLI)
+      ├── your backend server (Express)
+      └── build tools (Vite, ESLint, Prettier)
+           └── invoked from anywhere: VSCode terminal, PowerShell, CI, Render
